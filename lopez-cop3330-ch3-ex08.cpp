@@ -6,11 +6,11 @@
 #include <iostream>
 
 int main() {
-    int userNum;
+    int userNum; //declare userNum, an integer variable to hold the user's inputted numerical value
 
     //tell the user to input a value to determine if it is odd or even
     std::cout << "Please input a number.";
-    
+
     //take the user's inputted value
     std::cin >> userNum;
 
