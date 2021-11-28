@@ -10,14 +10,15 @@ int main() {
 
     //tell the user to input a value to determine if it is odd or even
     std::cout << "Please input a number.";
+    
+    //take the user's inputted value
     std::cin >> userNum;
-    std::cout << "Your number is: " << userNum;
 
-    if(abs(userNum) % 2 == 0) {
-        std::cout << "The value" << userNum << "is an even number.";
+    if(abs(userNum) % 2 == 0) { //if the user's inputted value is divisible by 2, then it is even
+        std::cout << "The value" << userNum << "is an even number."; //output to the user that their value is even
     }
-    else {
-        std::cout << "The value" << userNum << "is an odd number.";
+    else { //if not, then it is odd
+        std::cout << "The value" << userNum << "is an odd number."; //output to the user that their value is odd
     }
 
     return 0;
